@@ -1,15 +1,29 @@
 # Chuck Norris ❤️ Storybook
 
-👊 The only real Storybook addon you will ever really need.
+👊 The only real Storybook add-on you will ever really need.
 
-## Getting Started
+[![Storybook Chuck Norris Add On](docs/storybook-addon-chucknorris.png)](https://api.chucknorris.io)
+
+## Installation
+
+Install the following npm module:
+
+```sh
+npm i --save-dev storybook-addon-chucknorris
+```
+
+or with yarn:
 
 ```sh
 yarn add -D storybook-addon-chucknorris
 ```
 
-Then create a file called `addons.js` in your storybook config directory. Add following content to it:
+## Basic Usage
+
+Simply import the Storybook ChuckNorris Addon in the `addons.js` file in your `.storybook` directory.
 
 ```javascript
 import 'storybook-addon-chucknorris/register';
 ```
+
+This will register the Viewport Addon to Storybook and will show up in the action area.
