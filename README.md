@@ -26,4 +26,4 @@ Simply import the Storybook ChuckNorris Addon in the `addons.js` file in your `.
 import 'storybook-addon-chucknorris/register';
 ```
 
-This will register the Viewport Addon to Storybook and will show up in the action area.
+This will register the Chuck Norris Addon to Storybook and will show up in the action area.

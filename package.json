@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-chucknorris",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "👊 The only real Storybook addon you will ever really need.",
   "scripts": {
     "format": "prettier --single-quote --trailing-comma es5 --write 'src/**/*.js'",
